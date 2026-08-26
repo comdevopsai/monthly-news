@@ -1,0 +1,21 @@
+# GitHub Pages configuration
+title: Common Devops AI - Monthly News
+description: Monthly tech and AI news articles
+baseurl: ""
+url: "https://comdevopsai.github.io/monthly-news"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
